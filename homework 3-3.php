@@ -20,7 +20,6 @@
             $f2=$f1+$f0;
             printf("%d %d ",$i,$f1);
             if($i!=$integer){
-                //printf("%f",$f2/$f1);
                 $formattedValue = rtrim(number_format($f2/$f1, 6, '.', ''), '0');
                 echo "$formattedValue\n";
             }
